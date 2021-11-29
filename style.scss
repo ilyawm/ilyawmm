@@ -31,8 +31,8 @@ $color-yellow: #dac617;
 
 @font-face{
     font-family: 'iransanss';
-    src: url('../fonts/IRANSans.eot'),url('../fonts/IRANSans.otf') format('otf'),url('../fonts/IRANSans.svg') format('svg'),
-    url('../fonts/IRANSans.woff') format('woff'),url('../fonts/IRANSans.woff2') format('woff2');
+    src: url('fonts/IRANSans.eot'),url('fonts/IRANSans.otf') format('otf'),url('fonts/IRANSans.svg') format('svg'),
+    url('fonts/IRANSans.woff') format('woff'),url('fonts/IRANSans.woff2') format('woff2');
     font-weight: normal;
 }
 
@@ -46,7 +46,7 @@ $color-yellow: #dac617;
 
 .header-site{
     position: relative;
-    background-image: linear-gradient(rgba(black,.0),rgba(black,.9)),url(../img/bg.jpeg);
+    background-image: linear-gradient(rgba(black,.0),rgba(black,.9)),url(img/bg.jpeg);
     @include background1();
     width: 100%;
     height: 100vh;
