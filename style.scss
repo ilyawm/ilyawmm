@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'myiransans';
+    src: url('font/IRANSansWeb.ttf') format('truetype'),url('font/IRANSansWeb.eot') format('eot'),
+    url('font/IRANSansWeb.woff') format('woff'),url('font/IRANSansWeb.woff2') format('woff2'),
+    url('font/IRANSans.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'myiransansnum';
+    src: url('font/IRANSansWeb\(FaNum\).ttf') format('truetype'),url('font/IRANSansWeb\(FaNum\).eot') format('eot'),
+    url('font/IRANSansWeb\(FaNum\).woff') format('woff'),url('font/IRANSansWeb\(FaNum\).woff2') format('woff2');
+}
+
+$color-blue: #3270FC;
+$color-bluer: #144273;
+$color-white: #F5F7FB;
+$color-orange: #f58221;
+$color-dark-white: #8e8e8e;
+
+@mixin transition1($tr1,$tr2,$tr3) {
+    transition: $tr1,$tr2,$tr3;
+    -o-transition: $tr1,$tr2,$tr3;
+    -moz-transition: $tr1,$tr2,$tr3;
+    -webkit-transition: $tr1,$tr2,$tr3;
+}
+
+*{
+    font-family: myiransansnum;
+    text-decoration: none !important;
+}
+
+body{
+    background-color: $color-white;
+    direction: rtl;
+}
+
+.custom-input-search{
+    border-start-start-radius: .6em !important;
+}
+
+.custom-button-search{
+    color: #fff !important;
+    border-start-end-radius: .6em !important;
+    background-color: $color-blue !important;
+}
+
+.custom-icon a{
+    font-size: .9em !important;
+    color: $color-dark-white !important;
+    @include transition1(all,ease,0.3s)
+}
+
+.custom-icon a:hover{
+    color: $color-orange !important;
+}
+
+.custom-icon-lg a{
+     font-size: 1.2em !important;
+     color: $color-dark-white !important;
+     @include transition1(all,ease,0.3s)
+}
+
+.custom-icon-lg a:hover{
+    color: $color-orange !important;
+}
+
+.custom-input-search1{
+    border-start-start-radius: .6em !important;
+    border-end-start-radius: .6em !important;
+}
+
+.custom-button-search1{
+    background-color: $color-blue !important;
+    border-start-end-radius: .6em !important;
+    color: #fff !important;
+    border-end-end-radius: .6em !important ;
+}
+
+
+
+
+
+
