@@ -94,6 +94,9 @@ body{
 
 .custom-search-color{
     color: $color-blue !important;
+    &:active{
+        color: $color-bluer !important;
+    }
 }
 
 
