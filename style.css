@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'myiransans';
   src: url("font/IRANSansWeb.ttf") format("truetype"), url("font/IRANSansWeb.eot") format("eot"), url("font/IRANSansWeb.woff") format("woff"), url("font/IRANSansWeb.woff2") format("woff2"), url("font/IRANSans.svg") format("svg");
@@ -86,5 +87,57 @@ body {
 
 .custom-search-color:active {
   color: #144273 !important;
+}
+
+@media (min-width: 992px) {
+  .custom-navbar li a {
+    border-right: solid .6px #e0e0e0 !important;
+    padding-right: 9px !important;
+  }
+  .custom-navbar .border-none {
+    border-right: none !important;
+  }
+  .custom-submenu a {
+    padding: .6em 0em !important;
+  }
+  .custom-submenu {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    top: 80px !important;
+    display: block !important;
+    transition: all, ease, 0.3s;
+    -o-transition: all, ease, 0.3s;
+    -moz-transition: all, ease, 0.3s;
+    -webkit-transition: all, ease, 0.3s;
+  }
+  .dropdown:hover .custom-submenu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    top: 38px !important;
+    display: block !important;
+  }
+}
+
+.custom-containerfluid {
+  background-image: url("img/Screenshot 2022-01-21 at 00-34-18 پیشنمایش قالب HTML املاک هوم رادار، Homeradar راست چین - Shortcut.lnk");
+  width: 100% !important;
+  height: 260px !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative !important;
+}
+
+.custom-containerfluid .custom-titr {
+  top: 95px !important;
+  position: relative !important;
+  color: #144273 !important;
+  background-color: #e6eeff !important;
+}
+
+.custom-containerfluid .custom-titr .custom-btn-titr {
+  background-color: #3270FC !important;
+  border-radius: 0px !important;
+  padding: .6em !important;
+  color: #fff !important;
 }
 /*# sourceMappingURL=style.css.map */

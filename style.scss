@@ -99,4 +99,67 @@ body{
     }
 }
 
+@media (min-width:992px) {
+    .custom-navbar{
+        li{
+            a{
+                border-right: solid .6px #e0e0e0 !important;
+                padding-right: 9px !important;
+            }
+        }
+        .border-none{
+            border-right: none !important;
+        }
+    }
+    .custom-submenu{
+        a{
+            padding: .6em 0em !important;
+        }
+    }
+    .custom-submenu{
+        opacity: 0 !important;
+        visibility: hidden !important;
+        top: 80px !important;
+        display: block !important;
+        @include transition1(all,ease,0.3s)
+    }
+    .dropdown:hover .custom-submenu{
+        opacity: 1 !important;
+        visibility: visible !important;
+        top: 38px !important;
+        display: block !important;
+    }
+}
+
+.custom-containerfluid{
+    background-image: url('img/Screenshot\ 2022-01-21\ at\ 00-34-18\ پیشنمایش\ قالب\ HTML\ املاک\ هوم\ رادار،\ Homeradar\ راست\ چین\ -\ Shortcut.lnk');
+    width: 100% !important;
+    height: 260px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative !important;
+    .custom-titr{
+        top: 95px !important;
+        position: relative !important;
+        color: $color-bluer !important;
+        background-color: #e6eeff !important;
+        .custom-btn-titr{
+            background-color: $color-blue !important;
+            border-radius: 0px !important;
+            padding: .6em !important;
+            color: #fff !important;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
