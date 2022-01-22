@@ -47,7 +47,7 @@ body{
 .custom-icon a{
     font-size: .9em !important;
     color: $color-dark-white !important;
-    @include transition1(all,ease,0.3s)
+    @include transition1(all,ease,0.3s);
 }
 
 .custom-icon a:hover{
@@ -57,7 +57,7 @@ body{
 .custom-icon-lg a{
      font-size: 1.2em !important;
      color: $color-dark-white !important;
-     @include transition1(all,ease,0.3s)
+     @include transition1(all,ease,0.3s);
 }
 
 .custom-icon-lg a:hover{
@@ -76,7 +76,21 @@ body{
     border-end-end-radius: .6em !important ;
 }
 
-
+.custom-nav{
+    .custom-navbar{
+        li{
+            a{
+                color: #144273 !important;
+                @include transition1(all,ease,0.4s);
+                font-size: .9em !important;
+                font-weight: 600 !important;
+                &:hover{
+                    color: #3270FC !important;
+                }
+            }
+        }
+    }
+}
 
 
 

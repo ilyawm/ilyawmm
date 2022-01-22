@@ -65,4 +65,18 @@ body {
   color: #fff !important;
   border-end-end-radius: .6em !important;
 }
+
+.custom-nav .custom-navbar li a {
+  color: #144273 !important;
+  transition: all, ease, 0.4s;
+  -o-transition: all, ease, 0.4s;
+  -moz-transition: all, ease, 0.4s;
+  -webkit-transition: all, ease, 0.4s;
+  font-size: .9em !important;
+  font-weight: 600 !important;
+}
+
+.custom-nav .custom-navbar li a:hover {
+  color: #3270FC !important;
+}
 /*# sourceMappingURL=style.css.map */
