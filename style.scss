@@ -42,6 +42,10 @@ body{
     color: #fff !important;
     border-start-end-radius: .6em !important;
     background-color: $color-blue !important;
+    @include transition1(all,ease,0.3s);
+    &:hover{
+        background-color: #1a5fff !important;
+    }
 }
 
 .custom-icon a{
@@ -132,7 +136,7 @@ body{
 }
 
 .custom-containerfluid{
-    background-image: url('img/Screenshot\ 2022-01-21\ at\ 00-34-18\ پیشنمایش\ قالب\ HTML\ املاک\ هوم\ رادار،\ Homeradar\ راست\ چین\ -\ Shortcut.lnk');
+    background-image: url('img/SL_043021_42650_02.jpg') !important;
     width: 100% !important;
     height: 260px !important;
     background-repeat: no-repeat !important;
@@ -148,9 +152,94 @@ body{
             border-radius: 0px !important;
             padding: .6em !important;
             color: #fff !important;
+            &:hover{
+                background-color: transparent !important;
+                border-color: $color-blue;
+                color: $color-blue !important;
+            }
         }
     }
 }
+
+.custom-p1{
+    background-color: #144273 !important;
+    padding: .6em !important;
+    font-size: .9em !important;
+}
+
+.custom-p2{
+    background-color: #8e8e8e !important;
+    padding: .6em !important;
+    font-size: .9em !important;
+    cursor: pointer !important;
+}
+
+.custom-border::before{
+    content: '' !important;
+    width: 100% !important;
+    height: .2em !important;
+    background-color: #144273 !important;
+    display: block !important;
+    top: 24px !important;
+    position: relative !important;
+    z-index: -1 !important;
+}
+
+@media (min-width:1400px) {
+    .custom-card-a{
+        margin-top: 3em !important;
+    }
+}
+
+.custom-over{
+    background-color: $color-blue !important;
+    color: #fff !important;
+}
+
+.custom-sublayer{
+    display: flex !important;
+    position: relative !important;
+    .overlay{
+       position: absolute !important;
+       top: 0px !important; 
+       right: 0px !important;
+       width: 100% !important;
+       height: 100% !important;
+       background: rgba( 0, 0, 0, .6) !important;
+       opacity: 0 !important;
+       visibility: hidden !important;
+       @include transition1(all,ease,0.4s);
+        .btn{
+            position: absolute !important;
+            top: 67% !important;
+            right: 38% !important;
+        }
+       }
+}
+
+.card:hover .overlay{
+        opacity: 1 !important;
+        visibility: visible !important;
+}
+
+.custom-card-a1{
+    color: #000 !important;
+    @include transition1(all,ease,0.2s);
+    &:hover{
+        color: $color-orange !important;
+    }
+}
+
+.custom-del1{
+    text-decoration: line-through !important;
+}
+
+
+
+
+
+
+
 
 
 
