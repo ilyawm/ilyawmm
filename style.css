@@ -13,6 +13,11 @@
   text-decoration: none !important;
 }
 
+* ::selection {
+  color: #fff !important;
+  background-color: #144273 !important;
+}
+
 body {
   background-color: #F5F7FB;
   direction: rtl;
@@ -154,6 +159,35 @@ body {
   color: #3270FC !important;
 }
 
+.custom-container-fluid {
+  background-image: url("img/img111.jpg");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  width: 100% !important;
+  position: relative !important;
+}
+
+.custom-container-fluid .custom-e {
+  direction: rtl !important;
+  border-start-start-radius: .8em !important;
+  border-end-start-radius: .8em !important;
+}
+
+.custom-container-fluid .custom-btn-e {
+  color: #fff !important;
+  background-color: #8e8e8e !important;
+  transition: all, ease, 0.3s;
+  -o-transition: all, ease, 0.3s;
+  -moz-transition: all, ease, 0.3s;
+  -webkit-transition: all, ease, 0.3s;
+  border-start-end-radius: .8em !important;
+  border-end-end-radius: .8em !important;
+}
+
+.custom-container-fluid .custom-btn-e:hover {
+  background-color: #646464 !important;
+}
+
 .custom-p1 {
   background-color: #144273 !important;
   padding: .6em !important;
@@ -212,7 +246,63 @@ body {
 .custom-sublayer .overlay .btn {
   position: absolute !important;
   top: 67% !important;
-  right: 38% !important;
+  right: 37% !important;
+}
+
+@media (max-width: 1200px) {
+  .custom-sublayer .overlay .btn {
+    position: absolute !important;
+    top: 69% !important;
+    right: 38% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .custom-sublayer .overlay .btn {
+    position: absolute !important;
+    top: 68% !important;
+    right: 36% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-sublayer .overlay .btn {
+    position: absolute !important;
+    top: 68% !important;
+    right: 40% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-sublayer .overlay .btn {
+    position: absolute !important;
+    top: 67% !important;
+    right: 36% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .custom-sublayer .overlay .btn {
+    position: absolute !important;
+    top: 66% !important;
+    right: 33% !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .custom-sublayer .overlay .btn {
+    position: absolute !important;
+    top: 64% !important;
+    right: 29% !important;
+  }
+}
+
+@media (max-width: 278px) {
+  .custom-sublayer .overlay .btn {
+    position: absolute !important;
+    top: 64% !important;
+    right: 22% !important;
+  }
 }
 
 .card:hover .overlay {
@@ -234,5 +324,25 @@ body {
 
 .custom-del1 {
   text-decoration: line-through !important;
+}
+
+.custom-small1 {
+  color: #8e8e8e !important;
+}
+
+.custom-ul {
+  color: #8e8e8e !important;
+}
+
+.custom-ul li a {
+  color: #585858 !important;
+}
+
+.custom-ul li a:hover {
+  color: #313131 !important;
+}
+
+.custom-end {
+  background-color: #eeeeee !important;
 }
 /*# sourceMappingURL=style.css.map */
