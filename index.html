@@ -61,8 +61,29 @@
                         </a>
                   </div>
                   <div class="d-lg-none col-12 d-flex justify-content-center custom-icon-lg">
-                    <a href="#" class="border-end border-start-0 ms-1 ps-3"><i class="fas fa-sign-in-alt"></i></a>
-                    <a href="#" class="border-end border-start-0 ms-1 ps-3"><i class="fas fa-user"></i></a>
+                    <a href="#mymodal2" data-bs-toggle="modal" class="border-end border-start-0 ms-1 ps-3"><i class="fas fa-sign-in-alt"></i></a>
+                    <div class="modal fade" id="mymodal2">
+                        <div class="modal-dialog modal-sm modal-dialog-centered">
+                            <div class="modal-content">
+                                <button class="btn-close m-3" data-bs-dismiss="modal" type="button"></button>
+                                <div class="modal-header justify-content-center border-bottom-0">
+                                    <a href="index.html"><img src="img/logo3.png" alt="logo" title="logo" class="img-fluid"></a>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="mx-2 shadow-lg p-4 rounded-3">
+                                        <p class="text-center text-muted fs-4"> ورود </p>
+                                        <label for="#mynum"> شماره همراه : </label>
+                                        <input id="mynum" class="form-control my-2" type="text" placeholder="09147021236" name="singin-num" style="direction: ltr !important;">
+                                        <button class="btn btn-sm btn-primary px-5 mt-2" type="button"> ادامه </button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer border-top-0 justify-content-start">
+                                    <a href="#" class="mx-4 mb-3"><small class="text-muted fs-6"> ورود با ایمیل </small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="singup.html" class="border-end border-start-0 ms-1 ps-3"><i class="fas fa-user"></i></a>
                     <a href="#" class="border-end border-start-0 ms-1 ps-3"><i class="fas fa-shopping-cart"></i></a>
                     <a href="#mycolapse" class="ms-1 ps-3" data-bs-toggle="collapse"><i class="fas fa-search custom-search-color"></i></a>
                   </div>
