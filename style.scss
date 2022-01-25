@@ -85,6 +85,7 @@ body{
 }
 
 .custom-nav{
+    background-color: #fff !important;
     .custom-navbar{
         li{
             a{
@@ -328,13 +329,46 @@ body{
     background-color: #eeeeee !important;
 }
 
+.custom-head-singup{
+    width: 100% !important;
+    height: 260px !important;
+    background-image: url("img/background-icon@2x.png");
+    position: relative !important;
+}
 
+.custom-singup-i{
+    border-end-start-radius: .6em !important;
+    border-start-start-radius: .6em !important;
+}
 
+.custom-singup-in{
+    border-start-end-radius: .6em !important;
+    border-end-end-radius: .6em !important;
+}
 
+.custom-btn-singup{
+    background-color: $color-bluer !important;
+    margin-top: 1.5em !important;
+    font-size: 1.1em !important;
+}
 
+.custom-singup-s{
+    font-size: .6em !important;
+}
 
+.custom-singup-ss{
+    font-size: .8em !important;
+}
 
+.custom-singup-se{
+    margin-top: 2em !important;
+    text-align: center !important;
+}
 
+.custom-singup-see{
+    margin-top: 1.5em !important;
+    text-align: center !important;
+}
 
 
 

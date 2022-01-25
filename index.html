@@ -29,10 +29,31 @@
                       </div>
                   </div>
                   <div class="d-none d-lg-flex col-lg-3 justify-content-center align-items-center custom-icon">
-                       <a href="#" class="border-end border-start-0 ms-1 ps-3">
+                       <a href="#mymodal1" data-bs-toggle="modal" class="border-end border-start-0 ms-1 ps-3">
                         <i class="fas fa-sign-in-alt d-none d-xl-inline"></i>
                         ورود </a>
-                       <a href="#" class="border-end border-start-0 ms-1 ps-3">
+                        <div class="modal fade" id="mymodal1">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <button class="btn-close m-3" data-bs-dismiss="modal" type="button"></button>
+                                    <div class="modal-header justify-content-center border-bottom-0">
+                                        <a href="index.html"><img src="img/logo3.png" alt="logo" title="logo" class="img-fluid"></a>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form class="mx-2 shadow-lg p-4 rounded-3">
+                                            <p class="text-center text-muted fs-4"> ورود </p>
+                                            <label for="#mynum"> شماره همراه : </label>
+                                            <input id="mynum" class="form-control my-2" type="text" placeholder="09147021236" name="singin-num" style="direction: ltr !important;">
+                                            <button class="btn btn-primary px-5 mt-2" type="button"> ادامه </button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer border-top-0 justify-content-start">
+                                        <a href="#" class="mx-4 mb-3"><small class="text-muted fs-6"> ورود با ایمیل </small></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       <a href="singup.html" class="border-end border-start-0 ms-1 ps-3">
                         <i class="fas fa-user d-none d-xl-inline"></i>   
                         ثبت نام </a>
                         <a href="#" class="ms-1 ps-3">
@@ -63,14 +84,14 @@
 
       <!-- start menu -->
       <section>
-       <nav class="navbar navbar-light navbar-expand-lg mt-5 custom-nav shadow">
+       <nav class="navbar navbar-light navbar-expand-lg mt-5 custom-nav shadow sticky-lg-top">
         <button type="button" class="navbar-toggler mx-3" data-bs-toggle="collapse" data-bs-target="#mymenu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container">
           <div class="collapse navbar-collapse" id="mymenu">
                <ul class="navbar-nav text-center custom-navbar mx-auto">
-                  <li class="nav-item"> <a href="#" class="nav-link border-none"> صحفه اصلی </a> </li>
+                  <li class="nav-item"> <a href="index.html" class="nav-link border-none"> صحفه اصلی </a> </li>
                   <li class="nav-item dropdown"> 
                       <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> لیست ها </a>
                       <div class="dropdown-menu text-start custom-submenu">
@@ -135,8 +156,6 @@
                   </div>
               </div>
           </div>
-      </section>
-      <section>
         <div class="container-fluid">
           <div class="container my-5 custom-border">
              <div class="row">
