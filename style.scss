@@ -240,7 +240,7 @@ body{
         .btn{
             position: absolute !important;
             top: 67% !important;
-            right: 35% !important;
+            right: 37% !important;
         }
         @media (max-width:1399px) {
             .btn{
@@ -418,5 +418,14 @@ body{
 @media (max-width:768px) {
     .custom-ul-r li{
         display: block !important;
+    }
+}
+
+.custom-frm{
+    font-size: .7em !important;
+    @include transition1(all,ease,0.2s);
+    &:hover{
+        background-color: #b3b3b3 !important;
+        color: #fff !important;
     }
 }
